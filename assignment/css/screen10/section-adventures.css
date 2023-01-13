@@ -1,0 +1,39 @@
+.adventures {
+   margin-bottom: 70px;
+}
+
+.adventure__cover {
+   font-size: 60px;
+   font-weight: 700;
+   margin-bottom: 60px;
+}
+
+.adventure__list {
+   display: flex;
+   overflow-y: hidden;
+   overflow-x: scroll;
+}
+
+.adventure__1,
+.adventure__2,
+.adventure__3,
+.adventure__4,
+.adventure__5 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-right: 70px;
+}
+
+.adventure__image {
+   width: 200px;
+   height: 280px;
+   margin-bottom: 40px;
+   border-radius: 20px;
+}
+
+.adventure__star-icon {
+   width: 20px;
+   height: 20px;
+}
