@@ -13,11 +13,38 @@
    justify-content: space-between;
 }
 
-.icon {
+.nav__icon {
    width: 35px;
    height: 35px;
 }
 
 .nav__link {
    color: #2e363e;
+   position: relative;
+}
+
+.nav__notification {
+   background-color: tomato;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-weight: 600;
+   position: absolute;
+   left: 15px;
+   bottom: 20px;
+}
+
+.nav__dot {
+   background-color: tomato;
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   display: block;
+   position: absolute;
+   bottom: 30px;
+   right: 1px;
 }
