@@ -58,3 +58,15 @@
    margin-bottom: 5px;
    display: block;
 }
+
+.user-component__number {
+   display: flex;
+   align-items: center;
+}
+
+.user-component__number i {
+   color: red;
+   display: block;
+   margin-top: 10px;
+   margin-left: 5px;
+}
