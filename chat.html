@@ -12,7 +12,7 @@
       ></script>
    </head>
 
-   <body>
+   <body id="chat-screen">
       <div class="status-bar">
          <div class="status-bar__column">
             <span>No Service</span>
@@ -33,7 +33,7 @@
             <a href="chats.html"> <i class="fas fa-angle-left fa-2x"></i></a>
          </div>
          <div class="alt-header__column">
-            <h1 class="alt-header__title">Zorro</h1>
+            <h1 class="alt-header__title">Monkey D.Luffy</h1>
          </div>
          <div class="alt-header__column">
             <span><i class="fas fa-search fa-lg"></i></span>
@@ -41,6 +41,86 @@
          </div>
       </header>
 
-      <main class="main-screen"></main>
+      <main class="main-screen main-chat">
+         <div class="chat__timestamp">Monday, December 31, 2022</div>
+
+         <div class="message-row message-row--friend">
+            <img
+               src="https://w.namu.la/s/f01e6785997a3884b3900b3c5e7e5efc5b548285277fbfb547deedd315056af9e99433519e6ef88109be18199661152f9896110514e435baf87b9741fde89ec72ace3f59d621959f56ef5e9963e738c7b4958445077b19e4cdbc39b323797c9934414dbf822d2cc4db390f37cde6968d"
+            />
+            <div class="message-row__content">
+               <span class="message__author">Monkey D.Luffy</span>
+               <div class="message__info">
+                  <span class="message__bubble">Let's hang out!</span>
+                  <span class="message__time">20:21</span>
+               </div>
+            </div>
+         </div>
+
+         <div class="message-row message-row--own">
+            <div class="message-row__content">
+               <div class="message__info">
+                  <span class="message__bubble">No</span>
+                  <span class="message__time">20:22</span>
+               </div>
+            </div>
+         </div>
+
+         <div class="message-row message-row--friend">
+            <img
+               src="https://w.namu.la/s/f01e6785997a3884b3900b3c5e7e5efc5b548285277fbfb547deedd315056af9e99433519e6ef88109be18199661152f9896110514e435baf87b9741fde89ec72ace3f59d621959f56ef5e9963e738c7b4958445077b19e4cdbc39b323797c9934414dbf822d2cc4db390f37cde6968d"
+            />
+            <div class="message-row__content">
+               <span class="message__author">Monkey D.Luffy</span>
+               <div class="message__info">
+                  <span class="message__bubble">Why😢</span>
+                  <span class="message__time">20:22</span>
+               </div>
+            </div>
+         </div>
+
+         <div class="message-row message-row--friend">
+            <img
+               src="https://w.namu.la/s/f01e6785997a3884b3900b3c5e7e5efc5b548285277fbfb547deedd315056af9e99433519e6ef88109be18199661152f9896110514e435baf87b9741fde89ec72ace3f59d621959f56ef5e9963e738c7b4958445077b19e4cdbc39b323797c9934414dbf822d2cc4db390f37cde6968d"
+            />
+            <div class="message-row__content">
+               <span class="message__author">Monkey D.Luffy</span>
+               <div class="message__info">
+                  <span class="message__bubble">Let's go!!!!! </span>
+                  <span class="message__time">20:23</span>
+               </div>
+            </div>
+         </div>
+
+         <div class="message-row message-row--friend">
+            <img
+               src="https://w.namu.la/s/f01e6785997a3884b3900b3c5e7e5efc5b548285277fbfb547deedd315056af9e99433519e6ef88109be18199661152f9896110514e435baf87b9741fde89ec72ace3f59d621959f56ef5e9963e738c7b4958445077b19e4cdbc39b323797c9934414dbf822d2cc4db390f37cde6968d"
+            />
+            <div class="message-row__content">
+               <span class="message__author">Monkey D.Luffy</span>
+               <div class="message__info">
+                  <span class="message__bubble">Zorro, where are u? </span>
+                  <span class="message__time">20:38</span>
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <form class="reply">
+         <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+         </div>
+         <div class="reply__column">
+            <input type="text" placeholder="Write a message.." />
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+               <i class="fas fa-arrow-up"></i>
+            </button>
+         </div>
+      </form>
+
+      <div id="no-mobile">
+         <span>Your screen is too big 😥</span>
+      </div>
    </body>
 </html>

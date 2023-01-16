@@ -29,3 +29,16 @@
    bottom: 20px;
    right: -5px;
 }
+
+@keyframes rotateGear {
+   from {
+      transform: none;
+   }
+   to {
+      transform: rotateZ(360deg);
+   }
+}
+
+.screen-header__icon .fa-gear {
+   animation: rotateGear 2s linear infinite;
+}
