@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link rel="stylesheet" href="css/styles.css" />
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Find - Kokoa Clone</title>
+      <script
+         src="https://kit.fontawesome.com/e017701ff3.js"
+         crossorigin="anonymous"
+      ></script>
+   </head>
+   <body>
+      <div class="status-bar">
+         <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+         </div>
+         <div class="status-bar__column">
+            <span>18:43</span>
+         </div>
+         <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+         </div>
+      </div>
+
+      <header class="screen-header">
+         <h1 class="screen-header__title">Find</h1>
+         <div class="screen-header__icon">
+            <span>
+               <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+
+            <span>
+               <i class="fa-solid fa-gear fa-lg"></i>
+            </span>
+         </div>
+      </header>
+
+      <main class="main-screen">
+         <div class="icon-row">
+            <div class="icon-row__icon">
+               <i class="fas fa-qrcode"></i>
+               <span>Qr Code</span>
+            </div>
+            <div class="icon-row__icon">
+               <i class="far fa-address-book"></i>
+               <span>Add by Contacts</span>
+            </div>
+            <div class="icon-row__icon">
+               <i class="fas fa-fingerprint"></i>
+               <span>Add by ID</span>
+            </div>
+            <div class="icon-row__icon">
+               <i class="far fa-envelope"></i>
+               <span>Invite</span>
+            </div>
+         </div>
+
+         <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommended Friends</h6>
+            <span>You have no recommended friends.</span>
+         </div>
+
+         <div class="open-chat">
+            <div class="open-chat__header">
+               <h4>Open Chat</h4>
+               <span
+                  >Go to Openchat Home
+                  <i class="fa-solid fa-chevron-right fa-xs"></i>
+               </span>
+            </div>
+            <div class="open-post">
+               <div class="open-post__column">
+                  <h5 class="open-post__title">#ONEPIECE</h5>
+                  <h6 class="open-post__hashtags">#onpiece#pirate</h6>
+                  <div class="open-post__members">
+                     <img
+                        src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjExMjVfMjkg%2FMDAxNjY5MzY2NTc3ODQ1.-FhUiotV4IC_dtpvrtjJjO5mIlpV2oC3UriQLkhuJIYg.jrlwi7aMB6FJl_xmTUD9TEeNsG90vdNx4C3Ed27_dmYg.PNG.rabbitc303%2F%25BF%25F8%25C7%25C7%25BD%25BA_2%25B1%25E2_%25B1%25D7%25B7%25A3%25B5%25E5%25B6%25F3%25C0%25CE%25C6%25ED.PNG&type=l340_165"
+                     />
+                     <span class="open-post__member-count">885 members</span>
+                     <div class="divider"></div>
+                     <span class="open-post__member-status">Active</span>
+                  </div>
+               </div>
+               <div class="open-post__column">
+                  <div class="open-post__photo">
+                     <img
+                        src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjExMjVfMjkg%2FMDAxNjY5MzY2NTc3ODQ1.-FhUiotV4IC_dtpvrtjJjO5mIlpV2oC3UriQLkhuJIYg.jrlwi7aMB6FJl_xmTUD9TEeNsG90vdNx4C3Ed27_dmYg.PNG.rabbitc303%2F%25BF%25F8%25C7%25C7%25BD%25BA_2%25B1%25E2_%25B1%25D7%25B7%25A3%25B5%25E5%25B6%25F3%25C0%25CE%25C6%25ED.PNG&type=l340_165"
+                     />
+                     <div class="open-post__heart-count">
+                        <i class="fas fa-heart fa-xs"></i>
+                        <span>528</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <nav class="nav">
+         <ul class="nav__list">
+            <li class="nav__btn">
+               <a class="nav__link" href="friends.html">
+                  <i class="far fa-user fa-2x"></i>
+               </a>
+            </li>
+            <li class="nav__btn">
+               <a class="nav__link" href="chats.html">
+                  <span class="nav__notification badge">4</span>
+                  <i class="far fa-comment fa-2x"></i>
+               </a>
+            </li>
+            <li class="nav__btn">
+               <a class="nav__link" href="find.html"
+                  ><svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 20 20"
+                     fill="currentColor"
+                     class="w-5 h-5 nav__icon"
+                  >
+                     <path
+                        fill-rule="evenodd"
+                        d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                        clip-rule="evenodd"
+                     />
+                  </svg>
+               </a>
+            </li>
+            <li class="nav__btn">
+               <a class="nav__link" href="more.html">
+                  <span class="nav__dot"></span>
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     fill="none"
+                     viewBox="0 0 24 24"
+                     stroke-width="1.5"
+                     stroke="currentColor"
+                     class="w-6 h-6 nav__icon"
+                  >
+                     <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                     />
+                  </svg>
+               </a>
+            </li>
+         </ul>
+      </nav>
+
+      <div id="no-mobile">
+         <span>Your screen is too big 😥</span>
+      </div>
+   </body>
+</html>
